@@ -162,7 +162,7 @@ section.sessao1 .container{
 }
 
 .bt1-texto{
-    background-color: #FF703D;
+    background-color: #31dacb;
     width: 165px;
     height: 44px;
     cursor: pointer;
@@ -172,6 +172,7 @@ section.sessao1 .container{
     line-height: 44px;
     border-radius: 50px;
     font-size: 16px;
+    box-shadow: inset 2px 2px 5px, inset -2px -2px 5px ;
 }
 
 .device-sessao1{
@@ -370,7 +371,7 @@ section.sessao4{
 }
 
 .form form input[type=submit]{
-    background-color: #FF703D;
+    background-color: #31dacb;
     width: 165px;
     border: 0;
     height: 44px;
@@ -379,6 +380,7 @@ section.sessao4{
     margin-top: 30px;
     border-radius: 50px;
     font-size: 16px;
+    box-shadow: inset 2px 2px 5px, inset -2px -2px 5px ;
 }
 
 .maps-wraper{
@@ -416,7 +418,22 @@ section.sessao4{
     height: 100%;
     background-color: white;
     border: 5px solid rgb(200, 200, 200);
-    
+}
+
+footer{
+    padding: 40px 2%;
+    background-color: #192123;
+    color: white;
+}
+
+footer p:nth-of-type(1){
+    float: left;
+    font-size: 14px;
+}
+
+footer p:nth-of-type(2){
+    float: right;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 830px){
@@ -533,4 +550,17 @@ section.sessao4{
         margin-top: 20px;
         top: 40px;
     }
+    footer{
+        text-align: center;
+    }
+    
+    footer p:nth-of-type(1){
+        float: none;
+    }
+    
+    footer p:nth-of-type(2){
+        float: none;
+        margin-top: 8px;
+    }
+    
 }
